@@ -4,4 +4,4 @@
 # Cyber Sercurity Analyst
 ### Experiences:
 
-⋅⋅* Security Audit for Botium Toys
+- Security Audit for Botium Toys
