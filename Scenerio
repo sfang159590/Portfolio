@@ -1,9 +1,79 @@
 This scenario is based on a fictional company Botium Toys:
 
-Botium Toys is a small U.S. business that develops and sells toys. The business has a single physical location. However, its online presence has grown, attracting customers in the U.S. and abroad. Their information technology (IT) department is under increasing pressure to support their online market worldwide. 
+Botium Toys is a small U.S. business that develops and sells toys. The business has a single physical location. However, its online presence has grown, attracting customers in the U.S. and abroad. 
+Their information technology (IT) department is under increasing pressure to support their online market worldwide. 
 
-The manager of the IT department has decided that an internal IT audit needs to be conducted. She expresses concerns about not having a solidified plan of action to ensure business continuity and compliance, as the business grows. She believes an internal audit can help better secure the company’s infrastructure and help them identify and mitigate potential risks, threats, or vulnerabilities to critical assets. The manager is also interested in ensuring that they comply with regulations related to accepting online payments and conducting business in the European Union (E.U.).   
+The manager of the IT department has decided that an internal IT audit needs to be conducted. She expresses concerns about not having a solidified plan of 
+action to ensure business continuity and compliance, as the business grows. She believes an internal audit can help better secure the company’s infrastructure and help them identify and 
+mitigate potential risks, threats, or vulnerabilities to critical assets. The manager is also interested in ensuring that they comply with regulations related to accepting online payments and conducting 
+business in the European Union (E.U.).   
 
-The IT manager starts by implementing the National Institute of Standards and Technology Cybersecurity Framework (NIST CSF), establishing an audit scope and goals, and completing a risk assessment. The goal of the audit is to provide an overview of the risks the company might experience due to the current state of their security posture. The IT manager wants to use the audit findings as evidence to obtain approval to expand his department. 
+The IT manager starts by implementing the National Institute of Standards and Technology Cybersecurity Framework (NIST CSF), establishing an audit scope and goals, and completing a risk assessment. 
+The goal of the audit is to provide an overview of the risks the company might experience due to the current state of their security posture. The IT manager wants to use the audit findings as evidence to 
+obtain approval to expand his department. 
 
 Your task is to review the IT manager’s scope, goals, and risk assessment. Then, perform an internal audit to complete a controls assessment and compliance checklist. 
+
+
+
+Result:
+To: IT Manager, stakeholders
+From: Mengfan
+Date:07/28/2023
+Subject: Internal IT audit findings and recommendations
+
+Dear Colleagues,
+
+Please review the following informationm regarding the Botium Toys internal audit scope, goals, critical findings, summary and recommendations.
+
+Scope:
+*The systems that are in scope: accounting, end point detection, firewalls, intrusion detection system, security information and event management (SIEM) tool.
+*The systems to be evaluated for the above topics are:
+*Current user permission
+*Current implemented controls
+*Current procedures and protocols
+*Ensure current user permissions, controls, procedures, and protocols in place align with necessary compliance requirements.
+*Ensure current technology is accounted for. Both hardware and system access.
+
+Goals:
+*Exam our current process and implement improvement measures on our current system and making sure our system is align with the National Institute of Standards and 
+Technology Cybersecurity Framework. (NIST CSF)
+*Fortify system controls
+*Implement the concept of least permissions when it comes to user credential management
+*Establish their policies and procedures, which includes their playbooks
+*Ensure they are meeting compliance requirements
+
+Critical findings (must be addressed immediately):
+*Multiple systems needs to be developed and implemented to meet the audit goals, including:
+*Control of Least Privilege and Separation of Duties
+*Disaster recovery plans, file backup system is needed to ensure a easier recovery.
+*Password, access control, and account management policies, including the implementation of password management system
+*Encryption (for online digital/card transaction)
+*IDS to be alert on breaches from both data breach or physical location break.
+*Antivirus software is needed to lower the chance of malicious injection and prevent from variants of brain-worm viruses.
+*Install CCTV and hire a team of police to manually monitor the physical location, also add locks or key card system to protect physical assets such as 
+our network gears and confidential files.
+*Fire detection and prevention system to reduce the lost of accidents.
+*Police is needed to meet the GDPR compliance and PCI DSS compliance, as well as the SOC1 and SOC2. Police can provide 24/7 protection towards client’s SPII 
+which is required by PCI DSS when companies are accepting, processing, and transmitting sensitive credit card information inside or outside of the European Union (GDPR requirement). 
+Also, by allowing authorized personal to access the assets safely 24/7 will meet the SOC1 and SOC2. 
+
+Findings (Should be addressed, but not immediate need):
+*The controls that should be implemented when possible:
+*Time-controlled safe
+*signage indicating alarm service provider
+*firewall
+*adequate lighting
+*Lockers for network gears/personal items
+
+
+Summary/Recommendations: It is recommended that critical findings related to compliance of General Data Protection Regulation (GDPR) and Payment Card Industry Data Security Standard (PCI DSS) 
+to be addressed as soon as possible to avoid relevant fines and keep the client of Botium Toys’s sensitive personal identiable information (SPII) secure. Additionally, Botium Toys needs to 
+implement physical police to guard the company assets while safely ensure the availability of the assets which is required as compliance for the System and 
+Organizations Controls (SOC type 1, and SOC type 2). Since Botium Toys wants to implement the Least Control Policy, this compliance guideline is needed to guarantee the accessibility for the clients. 
+Having a Disaster recovery plan and backup is critical to mitigate loses that could potentially interfere with company’s continuity in the event of an incident. Integrate Antivirus software and 
+Intrusion Detection System will help mitigate and identify potential risk. They will also alert the cyber security team of any potential intrusion into Botium Toy’s network which gives 
+the cyber security team a higher success rate to defend. To further help secure the physical assets of Botium Toys, CCTV and physical lock system should be implemented to protect against any potential 
+breach and assets/equipment loses. While it’s not an immediate concern, having good time-controlled safe and adequate lighting will also help lower the risk of potential theft/lost, lockers and 
+fire detection and prevention system will help reduce the lost during an internal incident. Lastly, we should also partner up with a signage indicating alarm service provider to further improve 
+Botium Toys’ security posture.
